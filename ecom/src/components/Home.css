@@ -1,0 +1,157 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(225, 220, 220);
+}
+.heading{
+    background-color: rgb(57, 60, 100) ;
+    color:white;
+    font-size: 30px;
+    padding: 1px 15px;
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 20px;
+    border: 3px azure solid;
+
+}
+.title1{
+    font-size: 25px;
+    max-width: fit-content;
+    
+    margin: auto;
+   
+    font-weight: 600;
+    padding: 20px 0;
+    
+}
+.men{
+    font-size: 30px;
+    padding: 50px 50px;
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 20px;
+    border: 3px black solid;
+    background-color: red;
+
+}
+.men:hover{
+    transition: 0.3s ease-out;
+    transform: scale(0.95);
+}
+.men:active{
+    
+    transform: scale(1);
+
+}
+.women:hover{
+    transition: 0.3s ease-out;
+    transform: scale(0.95);
+}
+.women:active{
+    
+    transform: scale(1);
+
+}
+.women{
+    text-decoration:none;
+    background-color: red; 
+    padding: 50px 50px;
+
+    font-size: 30px;
+    padding: 50px 50px;
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 20px;
+    border: 3px black solid;
+}
+.electronics{
+    background-color: red;
+    padding: 500000px 50px;
+    color:white;
+    text-decoration: none;
+    font-size: 30px;
+    padding: 50px 50px;
+    margin: auto;
+    max-width: fit-content;
+    border-radius: 20px;
+    border: 3px black solid;
+   
+}
+.electronics:hover{
+    transition: 0.3s ease-out;
+    transform: scale(0.95);
+}
+.electronics:active{
+    
+    transform: scale(1);
+
+
+}
+.jewelery{
+    background-color: red;
+    color: #fff;
+    font-size: 30px;
+    padding: 50px 50px;
+   
+    border-radius: 20px;
+    border: 3px black solid;
+
+}
+.jewelery:hover{
+    transition: 0.3s ease-out;
+    transform: scale(0.95);
+}
+.jewelery:active{
+    
+    transform: scale(1);
+
+}
+.mens{
+    text-decoration: none;
+    color:white;
+    
+}
+.womens{
+    color:white;
+    text-decoration: none;
+}
+.electronicss{
+    color:white;
+    text-decoration: none;
+}
+.jewelerys{
+    color:white;
+    text-decoration: none;
+}
+.items1{
+    padding: 50px;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items:  space-between;
+    align-items:  space-between;
+   
+}
+.items2{
+    padding: 50px;
+    display: flex;
+    justify-items:  space-between;
+    align-items: space-between;
+   
+}
+.items{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-items:  space-between;
+}
+.one{
+    max-width:fit-content;
+    margin-left: auto;
+margin-right: auto;
+
+}
+.two{
+    max-width:fit-content;
+    margin-left: auto;
+margin-right: auto;
+
+
+}

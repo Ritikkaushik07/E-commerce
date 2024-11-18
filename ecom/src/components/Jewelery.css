@@ -1,0 +1,91 @@
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: rgb(225, 220, 220);
+}
+.product{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    
+    gap:50px;
+    width:80%;
+    margin:auto;
+    
+}
+.card{
+    background-color: rgb(193, 170, 160);
+    border-radius:20px;
+    padding:20px;
+    max-width:300px;
+    
+}
+.image{
+    
+    aspect-ratio: 1;
+    
+}
+.image>img{
+    width:100%;
+    border-radius:20px;
+}
+.name{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 20px 0;
+}
+.cat-price{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cat{
+    font-size:18px;
+    background-color: rgb(250, 235, 215);
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.price{
+    font-size:24px;
+    font-weight: 200;
+    color:white;
+    background-color: rgb(209, 111, 111); 
+    max-width: 100px;
+    border-radius: 5px;
+ }
+ .search{
+    width:80%;
+    margin:50px auto;
+ }
+ .search-input{
+    padding:20px;
+    width:100%;
+    border-radius: 20px;
+    font-weight: 20px;
+ }
+ .title{
+    max-width: fit-content;
+    
+margin: auto;
+font-size: 20px;
+font-weight: 600;
+padding: 20px 0;
+
+}
+button{
+font-size: 30px;
+padding: 5px 5px;
+margin: auto;
+max-width: fit-content;
+border-radius: 20px;
+border: 3px black solid;
+background-color:  rgb(209, 111, 111);
+}
+.bt:hover{
+transition: 0.3s ease-out;
+transform: scale(0.95);
+}
+.bt:active{
+
+transform: scale(1);
+
+}
